@@ -2,6 +2,8 @@ import React from 'react';
 import Navigation from './components/Navigation/Navigation.js';
 import Logo from './components/Logo/Logo.js';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm.js';
+import Rank from './components/Rank/Rank.js';
+import Particles from "react-tsparticles";
 import './App.css';
 import 'tachyons'; 
 
@@ -11,6 +13,7 @@ function App() {
     <div className="App">
         <Navigation />
         <Logo />
+        <Rank/>
         <ImageLinkForm/>
         {/*
         <FaceRecognition /> */}
